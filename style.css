@@ -36,4 +36,59 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/*  */
+/* MAIN SECTION */
+
+.main-section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vw;
+}
+
+.main-left {
+    width: 350px; 
+    height: 350px; 
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    font-size: 2rem;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1vw;
+    margin-top: 20px;
+}
+
+.main-buttons button {
+    font-family: 'Space Mono', monospace;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.main-buttons button:hover {
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
